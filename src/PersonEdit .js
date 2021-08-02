@@ -3,7 +3,7 @@ import { Link, withRouter } from 'react-router-dom';
 import { Button, Container, Form, FormGroup, Input, Label } from 'reactstrap';
 import AppNavbar from './AppNavbar';
 
-class CustomerEdit extends Component {
+class PersonEdit extends Component {
 
     emptyPerson = {
         name: '',
@@ -86,4 +86,4 @@ class CustomerEdit extends Component {
     }
 }
 
-export default withRouter(CustomerEdit);
+export default withRouter(PersonEdit);

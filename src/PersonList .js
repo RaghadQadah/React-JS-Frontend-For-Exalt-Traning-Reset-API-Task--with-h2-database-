@@ -20,7 +20,7 @@ class PersonList extends Component {
     }
 
     async remove(id) {
-        await fetch(`/persons/${id}`, {
+        await fetch(`/person/${id}`, {
             method: 'DELETE',
             headers: {
                 'Accept': 'application/json',
